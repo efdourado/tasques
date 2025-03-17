@@ -40,7 +40,7 @@ function App() {
     <div className="w-screen h-screen flex justify-center p-6" style={{ backgroundColor: '#0e0e0e' }}>
       <div className="w-[500px] space-y-6">
         <Title>
-          Task Tracker
+          Tasques
         </Title>
 
         <AddTask onAddTaskSubmit={onAddTaskSubmit} />
