@@ -6,17 +6,17 @@ function AddTask({ onAddTaskSubmit }) {
     const [description, setDescription] = useState("");
     
     return (
-        <div className="space-y-4 p-6 bg-slate-200 rounded-md shadow flex flex-col">
+        <div className="space-y-4 p-6 rounded-md shadow flex flex-col" style={{ backgroundColor:'#282931' }}>
             <Input
                 type="text"
-                placeholder="type task's title"
+                placeholder="Type task's title"
                 value={title}
                 onChange={(event) => setTitle(event.target.value)}
             />
 
             <Input
                 type="text"
-                placeholder="type task's description"
+                placeholder="Type task's description"
                 value={description}
                 onChange={(event) => setDescription(event.target.value)}
             />
@@ -29,7 +29,7 @@ function AddTask({ onAddTaskSubmit }) {
                 setDescription("");
             }}
             
-            className="bg-slate-500 text-white px-4 py-2 rounded-md font-medium">Add</button>
+            className="text-white px-4 py-2 rounded-md font-medium" style={{ backgroundColor:'#4db8b1' }}>Add</button>
         </div>
 ); }
 
