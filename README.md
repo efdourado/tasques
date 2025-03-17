@@ -8,7 +8,10 @@
 - uuid
 - eslint, prettier
 
-#### flow
+#### features
+
+- add tasks — title and description — saved in the browse's local storage
+- delete tasks and view their details
 
 #### how to run
 
